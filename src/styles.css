@@ -198,10 +198,7 @@ h1 {
 
 /*
   Modal styles
-
-  HACK: I'm doing this in a quick and dirty way.
-  Later in the course, we'll see my preferred way of building
-  modals in React.
+  quite dirty....
 */
 [data-reach-dialog-content] {
   position: relative;

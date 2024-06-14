@@ -8,12 +8,12 @@ function Guess({ value, answer }) {
     <p className="guess">
       {value !== undefined
         ? guessResult.map(({ letter, status }) => (
-            <span className={`cell ${status}`} key={crypto.randomUUID()}>
+            <span className={`cell back ${status}`} key={crypto.randomUUID()}>
               {letter}
             </span>
           ))
         : range(5).map((index) => (
-            <span className="cell" key={crypto.randomUUID()}></span>
+            <span className="cell back" key={crypto.randomUUID()}></span>
           ))}
     </p>
   );

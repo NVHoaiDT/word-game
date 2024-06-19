@@ -7,7 +7,7 @@ function LosingBanner({ answer }) {
       type={"sad"}
       children={
         <p>
-          💪Keep trying, you'll get it next time! the correct answer is <strong>{answer}</strong>
+          Keep trying, you'll get it next time 💪! the correct answer is <strong>{answer}</strong>
         </p>
       }
     ></Banner>

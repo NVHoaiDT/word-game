@@ -1,8 +1,20 @@
-import React from 'react';
+import React from "react";
 
-function Banner({type, children}) {
+function Banner({ type, children }) {
+  const bannerRef = React.useRef();
+  React.useEffect(() => {
+    const timeOut = window.setTimeout(() => {
+      bannerRef.current.style.display = "none";
+    }, 2000);
+    return () => {
+      window.clearTimeout(timeOut);
+    };
+  }, []);
+
   return (
-    <div className={`banner ${type}`}>{children}</div>
+    <div ref={bannerRef} className={`banner ${type}`}>
+      {children}
+    </div>
   );
 }
 

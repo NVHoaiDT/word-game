@@ -7,8 +7,7 @@ function WinningBanner({ numsOfGuess }) {
       type={"happy"}
       children={
         <p>
-          <strong>Congratulations 🎉!</strong> Got it in
-          {" "}
+          <strong>Congratulations 🎉!</strong> Got it in{" "}
           <strong>
             {numsOfGuess === 1 ? "1 guess" : numsOfGuess + " guesses"}
           </strong>

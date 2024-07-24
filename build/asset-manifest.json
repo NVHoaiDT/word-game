@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/word-game/static/css/main.e952a0bb.css",
-    "main.js": "/word-game/static/js/main.a2b4242a.js",
+    "main.css": "/word-game/static/css/main.e09c1526.css",
+    "main.js": "/word-game/static/js/main.5ebd8d3d.js",
     "index.html": "/word-game/index.html",
-    "main.e952a0bb.css.map": "/word-game/static/css/main.e952a0bb.css.map",
-    "main.a2b4242a.js.map": "/word-game/static/js/main.a2b4242a.js.map"
+    "main.e09c1526.css.map": "/word-game/static/css/main.e09c1526.css.map",
+    "main.5ebd8d3d.js.map": "/word-game/static/js/main.5ebd8d3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.e952a0bb.css",
-    "static/js/main.a2b4242a.js"
+    "static/css/main.e09c1526.css",
+    "static/js/main.5ebd8d3d.js"
   ]
 }

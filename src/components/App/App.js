@@ -9,14 +9,13 @@ function App() {
   const [isModelOpen, toggleModelOpen] = useToggle(true);
   return (
     <>
-      {(isModelOpen) && (
+      {isModelOpen && (
         <Modal title="Wordle tutorial" handleDismiss={toggleModelOpen}>
           <WordleTutorial></WordleTutorial>
         </Modal>
       )}
       <div className="wrapper">
         <Header />
-
         <div className="game-wrapper">
           {" "}
           <Game />

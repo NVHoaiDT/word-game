@@ -8,6 +8,8 @@ import { sample } from "../../utils";
 import { WORDS } from "../../data";
 import { NUM_OF_GUESSES_ALLOWED } from "../../constants";
 import RestartButton from "../RestartButton/RestartButton";
+import Keyboard from "../Keyboard/Keyboard";
+import { checkGuess } from "../../game-helpers";
 
 let answer = sample(WORDS);
 console.info({ answer });
@@ -37,10 +39,15 @@ function Game() {
     console.info({ answer });
   }
 
+  const validatedGuesses = guessList.map((guess) =>
+    checkGuess(guess, answer)
+  );
+
   return (
     <>
       <GuessSlots guessList={guessList} answer={answer}></GuessSlots>
       <GuessInput handleSubmitGuess={handleSubmitGuess} gameStatus={gameStatus}></GuessInput>
+      <Keyboard validatedGuesses={validatedGuesses}></Keyboard>
       {gameStatus === "winning" && (
         <WinningBanner numsOfGuess={guessList.length}></WinningBanner>
       )}

@@ -1,0 +1,35 @@
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.row {
+    display: flex;
+    justify-content: center; 
+    gap: 2px;
+}
+.letter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 4px;
+    background-color: #ced4da;
+}
+
+.correct {
+    background: hsl(131, 54%, 40%);;
+    border-color: hsl(131, 54%, 40%);;
+    color: white;
+}
+.misplaced {
+    background: hsl(46, 51%, 48%);
+    border-color: hsl(46, 51%, 48%);
+    color: white;
+}
+.incorrect {
+    background: hsl(0deg 0% 25%);
+    border-color: hsl(0deg 0% 25%);
+    color: white;
+}

@@ -1,4 +1,4 @@
-# A tiny react-base project.
+# A tiny react-based project.
 
 You can play this word-game here: [HDT-Wordle](https://nvhoaidt.github.io/word-game/)
 

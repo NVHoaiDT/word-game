@@ -23,7 +23,7 @@ To run the project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/username/word-game.git
+   git clone https://github.com/NVHoaiDT/word-game.git
 
    ```
 

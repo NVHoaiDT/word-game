@@ -41,4 +41,5 @@ To run the project locally, follow these steps:
    ```
 
 > [!NOTE]
-> This project was originally built with Parcel (an older React client-side bundler), and some parts of the code lacked maintainability. I have now migrated it to Next.js: [HDT-Wordle](https://nvhoaidt.github.io/word-game/).
+> I built this project during the very early stages of my React learning journey and so that some parts of the code lacked maintainability. I am planning to migrate it to Next.js in near future...
+
